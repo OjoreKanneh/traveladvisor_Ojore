@@ -10,7 +10,7 @@ import useStyles from './styles';
 const Header = () => {
   const classes= useStyles();
   return (
-    <AppBar position="static">
+    <AppBar position="static" style={{ backgroundColor: '#ff8a80' }}>
     <Toolbar className={classes.Toolbar}>
       <Typography variant="h5" className={classes.title}>
         Travel Advisor
